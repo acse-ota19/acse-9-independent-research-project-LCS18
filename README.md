@@ -23,7 +23,7 @@ Videos_to_images.ipynb: Extract frames from videos every per_frame frames and sa
 #### Analysis of results
 people-vs-time_plot.ipynb: From predictions, plots the number of people detected vs time (i.e. at which time they were detected).
 
-#### Report
+### Report
 blabla.pdf: This report gives a detailed description of the steps taken and the analysis done.
 
 ## Requirements
