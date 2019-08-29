@@ -1,22 +1,23 @@
 # Inference of Technical Data from CCTV images
 
-The submitted workflow is written using Python 3 and performs object detection of people on videos. It takes videos as inputs and outputs predictions in the shape of a table (dataframe) on Dataiku.
+The submitted workflow is written using Python 3 and performs object detection of people on videos. It takes videos as inputs and outputs predictions in the shape of a table (dataframe) on Dataiku. Those outputs are used to plot a number of people vs time, necessary for analysis (described in detail in the report).
 
 As this project involves the use of confidential data from Schlumberger, the training dataset won't be inserted in this repository.
 
 ## Contents
 ### cctv-ml-workflow folder
-#### useful .py files
+#### Useful .py files
 * bbox_util.py: useful functions for data augmentation in object detection
 * coco_eval.py and coco_utils.py: functions used in engine.py 
 * utils.py: useful functions
 * engine.py: train and evaluate functions for object detection
 
-#### main files
+#### Main files
 * custom_dataset.py: CustomImageTensorDataset class, written to apply transforms to both "img" and "target" (boxes). 
 * data_augmentation.py: Custom transforms for data augmentation in object detection.
 * ml.py: Main code for training. Uses all the previously mentioned files to train a model.
 * compute_toto.py: Main code to perform predictions using a trained model. Used on Dataiku (https://www.dataiku.com/ for more information about the data platform).
+* yt-loading-and-predicting.ipynb: Gets the results of prediction for public data downloaded from Youtube. Can plot the corresponding frame and its predicted boxes (detected people). 
 
 #### For data preparation
 Videos_to_images.ipynb: Extract frames from videos every per_frame frames and saves them as .jpg images. 
@@ -25,7 +26,7 @@ Videos_to_images.ipynb: Extract frames from videos every per_frame frames and sa
 people-vs-time_plot.ipynb: From predictions, plots the number of people detected vs time (i.e. at which time they were detected).
 
 ### Report
-blabla.pdf: This report gives a detailed description of the steps taken and the analysis done.
+final-report_Laura-Su.pdf: This report gives a detailed description of the steps taken and the analysis done.
 
 ## Requirements
 ### System
@@ -49,6 +50,8 @@ Follow the instructions on https://github.com/philferriere/cocoapi
 Get the repository from https://github.com/cocodataset/cocoapi
 
 ## Usage
+Using Pycharm and Jupyter Notebook is recommended.
+This repository can be downloaded on your computer. All required packages must be installed.
 
 
 ## Built with
