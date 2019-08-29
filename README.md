@@ -1,6 +1,7 @@
 # Inference of Technical Data from CCTV images
 
-The submitted workflow is written using Python 3 and performs object detection of people on a rig. 
+The submitted workflow is written using Python 3 and performs object detection of people on videos. It takes videos as inputs and outputs predictions in the shape of a table (dataframe) on Dataiku.
+
 As this project involves the use of confidential data from Schlumberger, the training dataset won't be inserted in this repository.
 
 ## Contents
@@ -46,6 +47,9 @@ Follow the instructions on https://github.com/philferriere/cocoapi
 
 ##### Linux
 Get the repository from https://github.com/cocodataset/cocoapi
+
+## Usage
+
 
 ## Built with
 Python 3
