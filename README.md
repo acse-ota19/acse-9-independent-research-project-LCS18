@@ -16,8 +16,8 @@ Also, as it doesn't seem possible to upload it here, a .pt file was created afte
 #### Main files
 * custom_dataset.py: CustomImageTensorDataset class, written to apply transforms to both "img" and "target" (boxes). 
 * data_augmentation.py: Custom transforms for data augmentation in object detection.
-* ml.py: Main code for training. Uses all the previously mentioned files to train a model.
-* compute_toto.py: Main code to perform predictions using a trained model on videos available on Dataiku. Used on Dataiku (https://www.dataiku.com/ for more information about the data platform).
+* ml.py: Main code for training. Needs a dataset as input (loaded using the CustomImageTensorDataset class). Uses all the previously mentioned files to train a model. Outputs a .pt file.
+* compute_toto.py: Main code to perform predictions using a trained model on videos available on Dataiku. Used on Dataiku (https://www.dataiku.com/ for more information about the data platform). Inputs: videos. Outputs: dataframe (table as .csv or .xls)
 * yt-loading-and-predicting.ipynb: Gets the results of prediction for public data downloaded from Youtube. Can plot the corresponding frame and its predicted boxes (detected people). 
 
 #### For data preparation
