@@ -50,6 +50,9 @@ Follow the instructions on https://github.com/philferriere/cocoapi
 ##### Linux
 Get the repository from https://github.com/cocodataset/cocoapi
 
+#### pytube
+```pip install pytube```
+
 ## Usage
 With this repository, as the dataset and the .pt file are lacking, it won't be possible to run the code. Please contact me (lcs18@ic.ac.uk) if you want to get the .pt file to run the predictions.
 
