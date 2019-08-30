@@ -2,7 +2,8 @@
 
 The submitted workflow is written using Python 3 and performs object detection of people on videos. It takes videos as inputs and outputs predictions in the shape of a table (dataframe) on Dataiku. Those outputs are used to plot a number of people vs time, necessary for analysis (described in detail in the report).
 
-As this project involves the use of confidential data from Schlumberger, the training dataset won't be inserted in this repository.
+As this project involves the use of confidential data (videos) from Schlumberger, the training dataset and the videos processed won't be inserted in this repository.
+Also, as it doesn't seem possible to upload it here, a .pt file was created after training and it is not present on this repo.
 
 ## Contents
 ### cctv-ml-workflow folder
@@ -16,7 +17,7 @@ As this project involves the use of confidential data from Schlumberger, the tra
 * custom_dataset.py: CustomImageTensorDataset class, written to apply transforms to both "img" and "target" (boxes). 
 * data_augmentation.py: Custom transforms for data augmentation in object detection.
 * ml.py: Main code for training. Uses all the previously mentioned files to train a model.
-* compute_toto.py: Main code to perform predictions using a trained model. Used on Dataiku (https://www.dataiku.com/ for more information about the data platform).
+* compute_toto.py: Main code to perform predictions using a trained model on videos available on Dataiku. Used on Dataiku (https://www.dataiku.com/ for more information about the data platform).
 * yt-loading-and-predicting.ipynb: Gets the results of prediction for public data downloaded from Youtube. Can plot the corresponding frame and its predicted boxes (detected people). 
 
 #### For data preparation
@@ -32,7 +33,7 @@ final-report_Laura-Su.pdf: This report gives a detailed description of the steps
 ### System
 Windows or Linux
 
-### Software
+### Software (optional)
 LabelImg software to get from https://github.com/tzutalin/labelImg
 
 ### Packages
@@ -50,8 +51,14 @@ Follow the instructions on https://github.com/philferriere/cocoapi
 Get the repository from https://github.com/cocodataset/cocoapi
 
 ## Usage
+With this repository, as the dataset and the .pt file are lacking, it won't be possible to run the code. Please contact me (lcs18@ic.ac.uk) if you want to get the .pt file to run the predictions.
+
 Using Pycharm and Jupyter Notebook is recommended.
 This repository can be downloaded on your computer. All required packages must be installed.
+
+The optional software is for labelling, if desired.
+
+Once all the files are retrieved, open Pycharm (or similar IDE) and run yt-loading-and-predicting.ipynb (choose a proper Youtube video involving roughnecks working on a rig) to have a first visualisation of possible results.
 
 
 ## Built with
@@ -61,7 +68,7 @@ Python 3
 Laura Su (lcs18@ic.ac.uk)
 
 ## Acknowledgments
-* Dr Robert Zimmerman (Imperial College London), Adam Bowler and David Halliday (Schlumberger), my supervisors
+* Dr Robert Zimmerman (Imperial College London), Adam Bowler and David Halliday (Schlumberger), my supervisors for their support
 * Schlumberger for accepting me for an internship
 * Family, friends and fellow interns for their moral support
 
