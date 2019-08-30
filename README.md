@@ -23,6 +23,9 @@ Also, as it doesn't seem possible to upload it here, a .pt file was created afte
 #### For data preparation
 Videos_to_images.ipynb: Extract frames from videos every per_frame frames and saves them as .jpg images. 
 
+#### For test/verification
+verification-test.ipynb: Example of training a model, loading a model and check if it is performing well on the labelled data.
+
 #### Analysis of results
 people-vs-time_plot.ipynb: From predictions, plots the number of people detected vs time (i.e. at which time they were detected).
 
@@ -64,11 +67,14 @@ The optional software and Videos_to_images.ipynb are for labelling, if desired.
 
 Once all the files are retrieved, open Jupyter Notebook and run yt-loading-and-predicting.ipynb (choose a proper input Youtube video involving roughnecks working on a rig) to have a first visualisation of possible results.
 
-Note for the examiners:
+Steps taken for the project:
 As part of the project, the labelling software and the Videos_to_images.ipynb file were used for data labelling.
 For model training, ml.py was used. 
 Compute_toto.py was used on Dataiku to process the available videos (confidential) and output a big table.
 people-vs-time_plot.ipynb was used to plot some early analysis of the results (people vs time), put in the report.
+
+## Test/Verification
+To check the results, the labelled data were compared to the predicted results (plotting the image and drawing its boxes is also done as a visual verification). This verification is not doable using this repository as the training dataset is needed.
 
 ## Built with
 Python 3
