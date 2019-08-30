@@ -51,7 +51,7 @@ Follow the instructions on https://github.com/philferriere/cocoapi
 Get the repository from https://github.com/cocodataset/cocoapi
 
 #### pytube
-```pip install pytube```
+```pip install pytube``` \
 Update note: it seems that something in Youtube changed recently (between July and August 2019), thus breaking the code. One of the package file needs to be modified. To fix it, check https://github.com/nficano/pytube/pull/435/files
 
 ## Usage
