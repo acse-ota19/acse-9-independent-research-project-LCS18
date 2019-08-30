@@ -1,6 +1,6 @@
 # Inference of Technical Data from CCTV images
 
-The submitted workflow is written using Python 3 and performs object detection of people on videos. It takes videos as inputs and outputs predictions in the shape of a table (dataframe) on Dataiku. Those outputs are used to plot a number of people vs time, necessary for analysis (described in detail in the report).
+The submitted workflow is written using Python 3 and performs object detection of people on videos. It takes videos as inputs and outputs predictions in the shape of a table (dataframe) on Dataiku. Those outputs are used to plot a number of people detected vs time graph, necessary for analysis (described in detail in the report).
 
 As this project involves the use of confidential data (videos) from Schlumberger, the training dataset and the videos processed won't be inserted in this repository.
 Also, as it doesn't seem possible to upload it here, a .pt file was created after training and it is not present on this repo.
