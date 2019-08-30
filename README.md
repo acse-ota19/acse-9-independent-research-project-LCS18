@@ -65,10 +65,10 @@ The optional software and Videos_to_images.ipynb are for labelling, if desired.
 Once all the files are retrieved, open Jupyter Notebook and run yt-loading-and-predicting.ipynb (choose a proper input Youtube video involving roughnecks working on a rig) to have a first visualisation of possible results.
 
 Note for the examiners:
-As part of the project, the labelling software, Videos_to_images.ipynb were used for data labelling.
+As part of the project, the labelling software and the Videos_to_images.ipynb file were used for data labelling.
 For model training, ml.py was used. 
 Compute_toto.py was used on Dataiku to process the available videos (confidential) and output a big table.
-people-vs-time_plot.ipynb was used to plot some early analysis of the results (people vs time).
+people-vs-time_plot.ipynb was used to plot some early analysis of the results (people vs time), put in the report.
 
 ## Built with
 Python 3
