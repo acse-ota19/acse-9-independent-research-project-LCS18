@@ -1,3 +1,5 @@
+"""Laura Su (GitHub: LCS18)"""
+
 import numpy as np
 import random
 import utils

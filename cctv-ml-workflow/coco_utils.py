@@ -1,3 +1,5 @@
+"""Laura Su (GitHub: LCS18)"""
+
 import copy
 import os
 from PIL import Image

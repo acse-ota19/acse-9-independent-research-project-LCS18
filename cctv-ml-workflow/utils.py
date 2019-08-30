@@ -1,3 +1,5 @@
+"""Laura Su (GitHub: LCS18)"""
+
 from __future__ import print_function
 
 from collections import defaultdict, deque

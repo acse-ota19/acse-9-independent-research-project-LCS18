@@ -1,3 +1,5 @@
+"""Laura Su (GitHub: LCS18)"""
+
 import math
 import sys
 import time

@@ -1,3 +1,5 @@
+"""Laura Su (GitHub: LCS18)"""
+
 import os
 from PIL import Image
 import xml.etree.ElementTree as ET
