@@ -56,10 +56,15 @@ With this repository, as the dataset and the .pt file are lacking, it won't be p
 Using Pycharm and Jupyter Notebook is recommended.
 This repository can be downloaded on your computer. All required packages must be installed.
 
-The optional software is for labelling, if desired.
+The optional software and Videos_to_images.ipynb are for labelling, if desired.
 
-Once all the files are retrieved, open Jupyter Notebook and run yt-loading-and-predicting.ipynb (choose a proper Youtube video involving roughnecks working on a rig) to have a first visualisation of possible results.
+Once all the files are retrieved, open Jupyter Notebook and run yt-loading-and-predicting.ipynb (choose a proper input Youtube video involving roughnecks working on a rig) to have a first visualisation of possible results.
 
+Note for the examiners:
+As part of the project, the labelling software, Videos_to_images.ipynb were used for data labelling.
+For model training, ml.py was used. 
+Compute_toto.py was used on Dataiku to process the available videos (confidential) and output a big table.
+people-vs-time_plot.ipynb was used to plot some early analysis of the results (people vs time).
 
 ## Built with
 Python 3
