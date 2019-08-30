@@ -58,7 +58,7 @@ This repository can be downloaded on your computer. All required packages must b
 
 The optional software is for labelling, if desired.
 
-Once all the files are retrieved, open Pycharm (or similar IDE) and run yt-loading-and-predicting.ipynb (choose a proper Youtube video involving roughnecks working on a rig) to have a first visualisation of possible results.
+Once all the files are retrieved, open Jupyter Notebook and run yt-loading-and-predicting.ipynb (choose a proper Youtube video involving roughnecks working on a rig) to have a first visualisation of possible results.
 
 
 ## Built with
@@ -73,4 +73,4 @@ Laura Su (lcs18@ic.ac.uk)
 * Family, friends and fellow interns for their moral support
 
 ## License
-This project is licensed under the MIT license - check file for more details.
+This project is licensed under the MIT license - check LICENSE file for more details.
