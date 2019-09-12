@@ -83,7 +83,7 @@ Python 3
 ## Author
 Laura Su (lcs18@ic.ac.uk)
 
-## Acknowledgments
+## Acknowledgements
 * Dr Robert Zimmerman (Imperial College London), Adam Bowler and David Halliday (Schlumberger), my supervisors for their support
 * Schlumberger for accepting me for an internship
 * Family, friends and fellow interns for their moral support
