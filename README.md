@@ -30,7 +30,7 @@ verification-test.ipynb: Example of training a model, loading a model and check 
 people-vs-time_plot.ipynb: From predictions, plots the number of people detected vs time (i.e. at which time they were detected).
 
 ### Report
-final-report_Laura-Su.pdf: This report gives a detailed description of the steps taken and the analysis done.
+final-report_Laura-Su.pdf: This report gives a detailed description of the steps taken and the analysis done in 3 months.
 
 ## Requirements
 ### System
