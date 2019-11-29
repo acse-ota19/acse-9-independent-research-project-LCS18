@@ -18,6 +18,7 @@ Also, as it doesn't seem possible to upload it here, a .pt file was created afte
 * data_augmentation.py: Custom transforms for data augmentation in object detection.
 * ml.py: Main code for training. Needs a dataset as input (loaded using the CustomImageTensorDataset class). Uses all the previously mentioned files to train a model. Outputs a .pt file.
 * compute_toto.py: Main code to perform predictions using a trained model on videos available on Dataiku. Used on Dataiku (https://www.dataiku.com/ for more information about the data platform). Inputs: videos. Outputs: dataframe (table as .csv or .xls)
+(A slightly modified version is now available to perform parallelisation on the Dataiku Data Platform.)
 * yt-loading-and-predicting.ipynb: Gets the results of prediction for public data downloaded from Youtube. Can plot the corresponding frame and its predicted boxes (detected people). 
 
 #### For data preparation
@@ -28,6 +29,14 @@ verification-test.ipynb: Example of training a model, loading a model and check 
 
 #### Analysis of results
 people-vs-time_plot.ipynb: From predictions, plots the number of people detected vs time (i.e. at which time they were detected).
+
+### investigations folder
+#### Hyperparameter tuning
+hyperparameter_tuning.py: Tuning hyperparameters with different values.
+
+#### Distributed parallelisation on a cluster (HPC)
+* ml_parallel.py: Similar to ml.py, with added distributed parallelisation. Run using script.sh
+* script.sh: Script used to send a job on the cluster, number of GPUs used can be chosen.
 
 ### Report
 final-report_Laura-Su.pdf: This report gives a detailed description of the steps taken and the analysis done in 3 months.
