@@ -21,6 +21,8 @@ Also, as it doesn't seem possible to upload it here, a .pt file was created afte
 (A slightly modified version is now available to perform parallelisation on the Dataiku Data Platform.)
 * yt-loading-and-predicting.ipynb: Gets the results of prediction for public data downloaded from Youtube. Can plot the corresponding frame and its predicted boxes (detected people). 
 
+Note: Since August 2019, more .py code were produced on Dataiku in order to perform analysis on the results, by smoothing those and applying thresholds for example. Can be given on request.
+
 #### For data preparation
 Videos_to_images.ipynb: Extract frames from videos every per_frame frames and saves them as .jpg images. 
 
